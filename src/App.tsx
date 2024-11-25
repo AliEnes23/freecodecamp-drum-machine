@@ -71,7 +71,7 @@ function App() {
           <Drum audioClip={clip} key={clip.keyTrigger} />
         ))}
       </div>
-      <div id="display"></div>
+      <div id="display">FreeCodeCamp Drum Machine</div>
     </div>
   );
 }
